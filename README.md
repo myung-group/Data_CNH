@@ -1,1 +1,1 @@
-# Data_CNH
+This repository accompanies the paper " **A Bayesian Committee Machine Force Field for Organic Nitrogen Compounds**" by Hyun Gyu Park, Gi Beom Sim, Soohaeng Yoo Willow, Jung Woon Yang, ChangMo Yang, and Chang Woo Myung
