@@ -1,0 +1,1 @@
+mpirun -n 20 /home/hgpark/prog/vasp.6.3.2/bin/vasp_std

@@ -1,0 +1,37 @@
+ running on   20 total cores
+ distrk:  each k-point on   20 cores,    1 groups
+ distr:  one band on    5 cores,    4 groups
+ vasp.6.3.2 27Jun22 (build Dec 05 2023 10:50:29) complex                        
+  
+ POSCAR found type information on POSCAR N C H 
+ POSCAR found :  3 types and      13 ions
+ scaLAPACK will be used
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.159967820688E+03    0.15997E+03   -0.57343E+03    56   0.685E+02
+DAV:   2     0.233343110127E+02   -0.13663E+03   -0.13429E+03    72   0.116E+02
+DAV:   3    -0.636318649835E+02   -0.86966E+02   -0.86632E+02    56   0.786E+01
+DAV:   4    -0.757815867091E+02   -0.12150E+02   -0.12144E+02    48   0.433E+01
+DAV:   5    -0.761155948207E+02   -0.33401E+00   -0.33385E+00    48   0.895E+00    0.138E+01
+RMM:   6    -0.696613946863E+02    0.64542E+01   -0.10981E+01    54   0.169E+01    0.698E+00
+RMM:   7    -0.685840192087E+02    0.10774E+01   -0.87676E+00    54   0.141E+01    0.370E+00
+RMM:   8    -0.683957535832E+02    0.18827E+00   -0.16242E+00    54   0.665E+00    0.137E+00
+RMM:   9    -0.682513342511E+02    0.14442E+00   -0.29595E-01    54   0.363E+00    0.525E-01
+RMM:  10    -0.682688651470E+02   -0.17531E-01   -0.34442E-01    55   0.257E+00    0.644E-01
+RMM:  11    -0.682583861244E+02    0.10479E-01   -0.10872E-01    54   0.229E+00    0.262E-01
+RMM:  12    -0.682595172666E+02   -0.11311E-02   -0.16640E-02    55   0.808E-01    0.886E-02
+RMM:  13    -0.682650920552E+02   -0.55748E-02   -0.18148E-02    55   0.569E-01    0.152E-01
+RMM:  14    -0.682694548648E+02   -0.43628E-02   -0.42563E-03    54   0.410E-01    0.432E-02
+RMM:  15    -0.682722031816E+02   -0.27483E-02   -0.19734E-03    54   0.229E-01    0.378E-02
+RMM:  16    -0.682767713775E+02   -0.45682E-02   -0.91965E-04    52   0.149E-01    0.138E-02
+RMM:  17    -0.682776794713E+02   -0.90809E-03   -0.25398E-04    45   0.598E-02    0.949E-03
+RMM:  18    -0.682792468351E+02   -0.15674E-02   -0.28433E-04    45   0.688E-02    0.135E-02
+RMM:  19    -0.682793345199E+02   -0.87685E-04   -0.87086E-05    42   0.402E-02
+   1 F= -.68375918E+02 E0= -.68375918E+02  d E =-.186122E-16
