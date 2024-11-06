@@ -1,0 +1,91 @@
+ running on   10 total cores
+ distrk:  each k-point on   10 cores,    1 groups
+ distr:  one band on    1 cores,   10 groups
+ vasp.6.3.2 27Jun22 (build Oct 05 2023 17:59:42) gamma-only                     
+  
+ POSCAR found type information on POSCAR C H N 
+ POSCAR found :  3 types and      18 ions
+ scaLAPACK will be used
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     The value NPAR = 4 specified in the INCAR file was overwritten,         |
+|     because it was not compatible with the 10 processes available:          |
+|     NPAR = 10                                                               |
+|     was used instead, please check that this makes sense for your           |
+|     machine.                                                                |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     For optimal performance we recommend to set                             |
+|       NCORE = 2 up to number-of-cores-per-socket                            |
+|     NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).      |
+|     This setting can greatly improve the performance of VASP for DFT.       |
+|     The default, NCORE=1 might be grossly inefficient on modern             |
+|     multi-core architectures or massively parallel machines. Do your        |
+|     own testing! More info at https://www.vasp.at/wiki/index.php/NCORE      |
+|     Unfortunately you need to use the default for GW and RPA                |
+|     calculations (for HF NCORE is supported but not extensively tested      |
+|     yet).                                                                   |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ -----------------------------------------------------------------------------
+|                                                                             |
+|               ----> ADVICE to this user running VASP <----                  |
+|                                                                             |
+|     You have a (more or less) 'large supercell' and for larger cells it     |
+|     might be more efficient to use real-space projection operators.         |
+|     Therefore, try LREAL= Auto in the INCAR file.                           |
+|     Mind: For very accurate calculation, you might also keep the            |
+|     reciprocal projection scheme (i.e. LREAL=.FALSE.).                      |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found type information on POSCAR C H N 
+ POSCAR found :  3 types and      18 ions
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.389914054830E+03    0.38991E+03   -0.13123E+04   100   0.635E+02
+DAV:   2     0.347760259775E+02   -0.35514E+03   -0.33962E+03   140   0.128E+02
+DAV:   3    -0.114536980409E+03   -0.14931E+03   -0.14864E+03   110   0.961E+01
+DAV:   4    -0.126158042603E+03   -0.11621E+02   -0.11572E+02   110   0.365E+01
+DAV:   5    -0.126314240985E+03   -0.15620E+00   -0.15527E+00   110   0.470E+00    0.186E+01
+RMM:   6    -0.116839981495E+03    0.94743E+01   -0.13052E+01    98   0.123E+01    0.102E+01
+RMM:   7    -0.114681288778E+03    0.21587E+01   -0.99520E+00   104   0.107E+01    0.448E+00
+RMM:   8    -0.114482925079E+03    0.19836E+00   -0.97731E-01   106   0.404E+00    0.253E+00
+RMM:   9    -0.114401647647E+03    0.81277E-01   -0.38800E-01   105   0.224E+00    0.498E-01
+RMM:  10    -0.114405866380E+03   -0.42187E-02   -0.72081E-02   114   0.968E-01    0.279E-01
+RMM:  11    -0.114419302681E+03   -0.13436E-01   -0.54707E-02   105   0.729E-01    0.345E-01
+RMM:  12    -0.114418047714E+03    0.12550E-02   -0.54332E-03   104   0.301E-01    0.174E-01
+RMM:  13    -0.114429880724E+03   -0.11833E-01   -0.13651E-02   107   0.365E-01    0.929E-02
+RMM:  14    -0.114431294450E+03   -0.14137E-02   -0.23583E-03   107   0.170E-01    0.517E-02
+RMM:  15    -0.114440673829E+03   -0.93794E-02   -0.34426E-03   105   0.167E-01    0.585E-02
+RMM:  16    -0.114442793706E+03   -0.21199E-02   -0.10496E-03   105   0.851E-02    0.283E-02
+RMM:  17    -0.114444320261E+03   -0.15266E-02   -0.73395E-04    99   0.762E-02    0.307E-02
+RMM:  18    -0.114445221371E+03   -0.90111E-03   -0.14563E-04    83   0.385E-02    0.109E-02
+RMM:  19    -0.114445500695E+03   -0.27932E-03   -0.40166E-05    76   0.180E-02    0.540E-03
+RMM:  20    -0.114445695159E+03   -0.19446E-03   -0.29652E-05    79   0.161E-02    0.236E-03
+RMM:  21    -0.114445768217E+03   -0.73058E-04   -0.11707E-05    70   0.113E-02
+   1 F= -.11469667E+03 E0= -.11469667E+03  d E =-.465025E-12
