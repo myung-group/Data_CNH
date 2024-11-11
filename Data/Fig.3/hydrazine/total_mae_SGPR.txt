@@ -1,0 +1,2 @@
+total_force_mae :  0.005821597005447327 eV/Å
+total_potential_mae :  0.005309216347155376 eV/Å
