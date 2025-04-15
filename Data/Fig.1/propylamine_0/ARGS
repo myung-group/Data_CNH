@@ -1,0 +1,16 @@
+calculator = 'VASP'
+
+pckl = '../../../model/model.pckl'
+tape = '../../../model/model.sgpr'
+
+ediff = 1.5*kcal_mol
+fdiff = 1.5*kcal_mol
+
+tem = 300.
+tdamp = 10.
+picos = 3
+rattle = 0.01
+dt = 0.25
+loginterval = 1
+test = 1000
+ml_filter=0
