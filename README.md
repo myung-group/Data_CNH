@@ -1,4 +1,4 @@
-This repository accompanies the paper " **A Bayesian Committee Machine Force Field for Organic Nitrogen Compounds**" by Hyun Gyu Park, Gi Beom Sim, Soohaeng Yoo Willow, Jung Woon Yang, ChangMo Yang, and Chang Woo Myung
+This repository accompanies the paper " **A Baysian Committee-Based Force Field for Organic Nitrogen Compounds**" by Hyun Gyu Park, Gi Beom Sim, Soohaeng Yoo Willow, Jung Woon Yang, ChangMo Yang, and Chang Woo Myung
 - The data for plotting all of the graphs in the main text and supplementary materials can be found in the folder  ```Data/```. The figures in the paper are in the folder Figures. Notebooks in the folder ```Scripts/```  can reproduce Figures.
 
 ## Paper abstract
